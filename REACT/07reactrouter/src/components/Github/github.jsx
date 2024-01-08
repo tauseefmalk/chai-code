@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 
 function github() {
-    const data= useLoaderData()
+    const data= useLoaderData()   // will load optimisly when hover
     
     // const [data, setData]=useState([])
     // useEffect(()=>{ // fetch data from api when it loads
